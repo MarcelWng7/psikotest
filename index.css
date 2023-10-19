@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    width: 800px;
+    height: aauto;
+    display: flex;
+    /*background-color: aqua;*/
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.block h1 {
+    border-bottom: 3px solid black;
+    margin-bottom: 25px;
+}
+
+.box-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.box-logo img {
+    height: 200px;
+}
+
+.box-cd {
+    display: flex;
+    align-items: center;
+}
+
+.box-cd p {
+    margin-left: 10px;
+}
+
+.box-soal {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.box-soal p {
+    margin-left: 10px;
+}
+
+.block input {
+    font-size: 30px;
+    width: 400px;
+    border: 4px solid black;
+    background: none;
+    cursor: pointer;
+}
+
+.block input:hover {
+    background-color: #00316C;
+    color: white;
+}
+
+#adminLogin {
+    position: absolute;
+    font-size: 30px;
+    margin-top: -550px;
+    margin-left: 1300px;
+    width: 150px;
+    background: none;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+#adminLogin:hover {
+    background-color: #00316C;
+    color: white;
+}
+
+
+#loginBox {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 30px;
+    background-color: #00316C;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 black;
+    flex-direction: column;
+    width: 500px;
+
+}
+
+#loginBox input {
+    width: 300px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+#user-field {
+    margin-bottom: 30px;
+}
+
+#login-button {
+    margin-top : 50px;
+    background: none;
+    color: white;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
