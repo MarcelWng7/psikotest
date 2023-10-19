@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #00316C;
+    color: white;
+    justify-content: end;
+    height: 110px;
+}
+
+.header h1 {
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.header img {
+    height: 60px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 0 10px 0 white;
+    margin-left: 20px;
+}
+
+.fa-stopwatch {
+    font-size: 20px;
+}
+
+.information {
+    margin-right: 40px;
+}
+
+.waktu-cd {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.soal {
+    display: flex;
+    align-items: center;
+}
+
+.waktu-cd p {
+    margin-left: 10px;
+}
+
+.soal p {
+    margin-left: 10px;
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 60px;
+}
+
+#quiz {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 60px;
+    padding: 10px;
+    box-shadow: 0 0 10px 0 black;
+    margin-bottom: 20px;
+}
+
+#result {
+    display: none;
+}
+
+#showAdmin {
+    display: flex;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 20px;
+    padding: 10px;
+    background: none;
+    border: 3px solid black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#showAdmin:hover {
+    background-color: #00316C;
+    color: white;
+}
+
+#showAnswer {
+    display: none;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 20px;
+    padding: 10px;
+    background: none;
+    border: 3px solid black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#showAnswer:hover {
+    background-color: #00316C;
+    color: white;
+}
+
+#block {
+    width: 420px;
+    height: auto;
+    display: none;
+    /*background-color: aqua;*/
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+    flex-direction: column;
+    box-shadow: 0 0 30px 0 black;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 200px;
+    background-color: white;
+}
+
+#userField {
+    margin-bottom: 30px;
+}
+
+#login-button {
+    margin-top : 30px;
+    font-weight: bold;
+    background: none;
+    color: black;
+    border: 3px solid black;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    width: 100px;
+}
+
+#login-button:hover {
+    background-color: #00316C;
+    color: white;
+}
+
+.box-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.box-logo img {
+    height: 160px;
+}
+
+#block input {
+    width: 400px;
+    font-size: 20px;
+    padding-left: 5px;
+    border: 3px solid black;
+}

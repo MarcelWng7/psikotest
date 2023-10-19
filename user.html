@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400:500:700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="https://pelitaabadisentosa.co.id/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psikotest - PT. Pelita Abadi Sentosa</title>
+</head>
+<body>
+    <input type="button" value="Admin Only!" id="showAdmin" onclick="showAdmin()">
+    <input type="button" value="Tampilkan jawaban" id="showAnswer" onclick="showAnswer()">
+    <div class="container">
+        <div class="header">
+            <img src="https://pelitaabadisentosa.co.id/favicon.png" alt="PT. Pelita Abadi Sentosa">
+            <h1>PT. PELITA ABADI SENTOSA</h1>
+            <div class="information">
+                <div class="waktu-cd">
+                    <i class="fas fa-stopwatch"></i>
+                    <p>Waktu tes : 15 menit</p>
+                </div>
+                <div class="soal">
+                    <i class="fas fa-pen"></i>
+                    <p>Ada 30 pertanyaan dalam tes ini</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="note">
+            <p><u><b>Bagaimana melakukan tes:</b></u></p><br>
+            <p><b>✓</b> Pilih <u>hanya 1 (satu)</u> jawaban yang paling mewakili diri Anda dalam berperilaku</p>
+            <p><b>✓ Tidak ada jawaban benar atau salah</b></p>
+        </div>
+
+        <div id="quiz">
+            <div class="question">
+                <p>Soal 1: Apa ibukota Indonesia?</p>
+                <label><input type="radio" name="q1" value="a"> a) Jakarta</label>
+                <label><input type="radio" name="q1" value="b"> b) Bandung</label>
+                <label><input type="radio" name="q1" value="c"> c) Surabaya</label>
+            </div>
+            <div class="question">
+                <p>Soal 2: Apa ibukota India?</p>
+                <label><input type="radio" name="q2" value="a"> a) Mumbai</label>
+                <label><input type="radio" name="q2" value="b"> b) New Delhi</label>
+                <label><input type="radio" name="q2" value="c"> c) Bangalore</label>
+            </div>
+            <!-- Soal 3, 4, dan 5 -->
+        </div>
+        <button id="submit">Submit</button>
+        <div id="result"></div>
+    </div>
+
+    <div id="block">
+        <div class="box-logo">
+            <img src="https://sales.pelitaabadisentosa.co.id/admin/logo.png" alt="PT. Pelita Abadi Sentosa">
+        </div>
+        <div id="user-box">
+            <h1 id="username">Username :</h1>
+            <input type="text" name="username" id="userField">
+        </div>
+        <div id="pass-box">
+            <h1 id="password">Password :</h1>
+            <input type="password" name="password" id="passField">
+        </div>
+        <input onclick="adminLogin()" type="button" value="Login" id="login-button">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
